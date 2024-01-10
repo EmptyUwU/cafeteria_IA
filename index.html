@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CAFETERÍA I.A</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- ICONO
+    ================================================== -->
+<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- BARRA DE NAVEGACION 
+    =============================================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <h1>IPN || ESCOM</h1>
+    </div>
+    
+    <!-- LINKS DE NAVEGACION  -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#page-top" class="page-scroll">Inicio</a></li>
+        <li><a href="#about" class="page-scroll">A cerca de...</a></li>
+        <li><a href="#restaurant-menu" class="page-scroll">Menú</a></li>
+      </ul>
+    </div>
+  </div> 
+</nav>
+<!-- FIN BARRA DE NAVEGACION 
+    =============================================================-->
+
+
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Cafetería I.A</h1>
+            <p>Escuela Superior de Cómputo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- INFORMACION NUTRICIONAL 
+    =============================================================-->
+
+<div id="about">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 about-img"> </div>
+      <div class="col-xs-12 col-md-3 col-md-offset-1">
+        <div class="about-text">
+          <div class="section-title">
+            <h2>¿Qué encontrarás aquí?</h2>
+          </div>
+          <p>En está página podrás encontrar la información nutricional (lípidos,carbohidratos, proteínas y sodio) de cada comida preparada que esta disponible en el menú de la cafetería de Inteligencia artificial, gracias a está información podrás tomar a tu consideración cuales son los alimentos más beneficiosos para ti.</p>   
+          <p>La información nutricional del menú están a porciones de 30 gramos  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  FIN INFORMACION NUTRICIONAL 
+    =============================================================-->
+
+
+
+
+<!-- IMAGENES DE COMIDA 
+    =============================================================-->
+
+<div id="gallery">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/01.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/02.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/03.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="gallery-item"> <img src="img/gallery/04.jpg" class="img-responsive" alt=""></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FIN IMAGENES DE COMIDA 
+    =============================================================-->
+
+
+
+<!-- MENU
+    ================================================================================-->
+
+<div id="restaurant-menu">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Menú</h2>
+    </div>
+
+     <!-- CLASIFICACION COMIDA  (TORTAS) ----------------------------------->
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">TORTAS</h2>
+
+          <!-- OPCION DE COMIDA -->
+
+          <div class="menu-item">
+            <div class="menu-item-name">Salchicha</div>
+            <div class="menu-item-price"> $22 </div>
+            <div class="menu-item-description"> Pan, frijol, mayonesa, lechuga, jitomate y salchicha </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion1()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion1() {
+                  alert('-Pan/bolillo=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg\n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Salchicha=>Lípidos: 17.9g, Carbohidratos: 7.5g, Proteínas: 17.9g, Calorías: 261g, Sodio: 1395mg');
+                }
+              </script>
+            </div> 
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Pierna</div>
+            <div class="menu-item-price"> $25 </div>
+            <div class="menu-item-description"> Pan, frijol, mayonesa, lechuga, jitomate y pierna. </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion2()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion2() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Pierna=>Lípidos: 12.28g, Carbohidratos: 0g, Proteínas: 19.16g, Calorías: 193g, Sodio: 60mg');
+                }
+              </script>
+          </div> 
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Milanesa</div>
+            <div class="menu-item-price"> $30 </div>
+            <div class="menu-item-description"> Pan, frijol, mayonesa, lechuga, jitomate y milanesa </div>  
+            <p style="color: red;">
+              <button onclick="mostarInformacion3()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion3() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Milanesa=>Lípidos: 16.69g, Carbohidratos: 14.64g, Proteínas: 24.79g, Calorías: 314g, Sodio: 295mg');
+                }
+              </script>    
+          </div>
+          
+          <h2 class="menu-section-title">TORTAS ESPECIALES $40</h2>
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Argentina</div>
+            <div class="menu-item-description"> Pan, frijol, mayonesa, lechuga, jitomate, milanesa, chorizo y queso oaxaca </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion4()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion4() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Milanesa=>Lípidos: 16.69g, Carbohidratos: 14.64g, Proteínas: 24.79g, Calorías: 314g, Sodio: 295mg\n-Chorizo=>Lípidos: 24.8g, Carbohidratos: 2.42g, Proteínas: 11.66g, Calorías: 283g, Sodio: 719mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg');
+                }
+              </script>
+          </div>
+
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Alemana</div>
+            <div class="menu-item-description"> Pan, frijol, mayonesa, lechuga, jitomate, milanesa, salchicha y queso oaxaca </div>
+            <p style="color: red;">
+            <button onclick="mostarInformacion5()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion5() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Milanesa=>Lípidos: 16.69g, Carbohidratos: 14.64g, Proteínas: 24.79g, Calorías: 314g, Sodio: 295mg\n-Salchicha=>Lípidos: 17.9g, Carbohidratos: 7.5g, Proteínas: 17.9g, Calorías: 261g, Sodio: 1395mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg');
+                }
+              </script>
+          </div>
+
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Rusa</div>
+            <div class="menu-item-description"> Pan, frijol, mayonesa, lechuga, jitomate, milanesa, pierna y queso oaxaca</div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion6()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion6() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Milanesa=>Lípidos: 16.69g, Carbohidratos: 14.64g, Proteínas: 24.79g, Calorías: 314g, Sodio: 295mg\n-Pierna=>Lípidos: 12.28g, Carbohidratos: 0g, Proteínas: 19.16g, Calorías: 193g, Sodio: 60mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg');
+                }
+              </script>  
+          </div>
+
+        </div>
+      </div>
+
+     <!-- CLASIFICACION COMIDA  (molletes) ---------------------------------->
+
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">MOLLETES</h2>
+
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Sencillo</div>
+            <div class="menu-item-price"> $20</div>
+            <div class="menu-item-description"> Bolillo, frijoles y queso manchego </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion7()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion7() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Queso Manchego=>Lípidos: 8.05g, Carbohidratos: 0.1g, Proteínas: 6.24g, Calorías: 98g, Sodio: 103mg');
+                }
+              </script> 
+          </div>
+          
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Chorizo</div>
+            <div class="menu-item-price"> $25 </div>
+            <div class="menu-item-description"> Bolillo, frijoles, queso manchego y chorizo</div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion8()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion8() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Queso Manchego=>Lípidos: 8.05g, Carbohidratos: 0.1g, Proteínas: 6.24g, Calorías: 98g, Sodio: 103mg\n-Chorizo=>Lípidos: 24.8g, Carbohidratos: 2.42g, Proteínas: 11.66g, Calorías: 283g, Sodio: 719mg');
+                }
+              </script>
+          </div>
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Pierna</div>
+            <div class="menu-item-price"> $25</div>
+            <div class="menu-item-description"> Bolillo, frijoles, queso manchego y pierna </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion9()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion9() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Queso Manchego=>Lípidos: 8.05g, Carbohidratos: 0.1g, Proteínas: 6.24g, Calorías: 98g, Sodio: 103mg\n-Pierna=>Lípidos: 12.28g, Carbohidratos: 0g, Proteínas: 19.16g, Calorías: 193g, Sodio: 60mg');
+                }
+              </script>
+          </div>
+
+           <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Jamón</div>
+            <div class="menu-item-price"> $25 </div>
+            <div class="menu-item-description"> Bolillo, frijoles, queso manchego y jamón </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion0()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion0() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Queso Manchego=>Lípidos: 8.05g, Carbohidratos: 0.1g, Proteínas: 6.24g, Calorías: 98g, Sodio: 103mg\n-Jamón=>Lípidos: 1.76g, Carbohidratos: 0.48g, Proteínas: 3.83g, Calorías: 34g, Sodio: 268mg');
+                }
+              </script>
+          </div>
+
+           <!-- OPCION DE COMIDA -->
+           <div class="menu-item">
+            <div class="menu-item-name">Tocino</div>
+            <div class="menu-item-price"> $25 </div>
+            <div class="menu-item-description"> Bolillo, frijoles, queso manchego y tocino </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion11()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion11() {
+                  alert('-Pan(bolillo)=>Lípidos: 5g, Carbohidratos: 45g, Proteínas: 9g, Calorías: 183g, Sodio: 341.4mg \n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg \n-Queso Manchego=>Lípidos: 8.05g, Carbohidratos: 0.1g, Proteínas: 6.24g, Calorías: 98g, Sodio: 103mg\n-Tocino=>Lípidos: 8.36g, Carbohidratos: 0.28g, Proteínas: 7.4g, Calorías: 108g, Sodio: 464mg');
+                }
+              </script>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- CLASIFICACION COMIDA  (chilaquiles) ---------------------------------------->
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">Chilaquiles</h2>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Sencillos</div>
+            <div class="menu-item-price"> $30 </div>
+            <div class="menu-item-description"> Totopos, salsa verde, crema, queso fresco y medio bolillo  </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion12()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion12() {
+                  alert('-Totopos=>Lípidos: 7.9g, Carbohidratos: 12.1g, Proteínas: 1.3g, Calorías: 125g, Sodio: 140mg\n-Salsa verde=>Lípidos: 1g, Carbohidratos: 3g, Proteínas: 1g, Calorías: 25g, Sodio: 878mg\n-Crema=>Lípidos: 7.7g, Carbohidratos: 1g, Proteínas: 0.6g, Calorías: 76g, Sodio: 46mg\n-Queso fresco/blanco=>Lípidos: 2.33g, Carbohidratos: 1.51g, Proteínas: 3.36g, Calorías: 41g, Sodio: 37mg\n-Medio pan(bolillo)=> 2.5g, Carbohidratos: 17.5g, Proteínas: 4.5g, Calorías: 91g, Sodio: 170.7mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Con pollo</div>
+            <div class="menu-item-price"> $35 </div>
+            <div class="menu-item-description"> Totopos, salsa verde, crema, queso fresco, pollo y medio bolillo </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion13()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion13() {
+                  alert('-Totopos=>Lípidos: 7.9g, Carbohidratos: 12.1g, Proteínas: 1.3g, Calorías: 125g, Sodio: 140mg\n-Salsa verde=>Lípidos: 1g, Carbohidratos: 3g, Proteínas: 1g, Calorías: 25g, Sodio: 878mg\n-Crema=>Lípidos: 7.7g, Carbohidratos: 1g, Proteínas: 0.6g, Calorías: 76g, Sodio: 46mg\n-Queso fresco/blanco=>Lípidos: 2.33g, Carbohidratos: 1.51g, Proteínas: 3.36g, Calorías: 41g, Sodio: 37mg\n-Pollo=>Lípidos: 1.59g, Carbohidratos: 0g, Proteínas: 13.84g, Calorías: 74g, Sodio: 178mg\n-Medio pan(bolillo)=> 2.5g, Carbohidratos: 17.5g, Proteínas: 4.5g, Calorías: 91g, Sodio: 170.7mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Con Chorizo</div>
+            <div class="menu-item-price"> $37 </div>
+            <div class="menu-item-description"> Totopos, salsa verde, crema, queso fresco, chorizo y medio bolillo  </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion14()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion14() {
+                  alert('-Totopos=>Lípidos: 7.9g, Carbohidratos: 12.1g, Proteínas: 1.3g, Calorías: 125g, Sodio: 140mg\n-Salsa verde=>Lípidos: 1g, Carbohidratos: 3g, Proteínas: 1g, Calorías: 25g, Sodio: 878mg\n-Crema=>Lípidos: 7.7g, Carbohidratos: 1g, Proteínas: 0.6g, Calorías: 76g, Sodio: 46mg\n-Queso fresco/blanco=>Lípidos: 2.33g, Carbohidratos: 1.51g, Proteínas: 3.36g, Calorías: 41g, Sodio: 37mg\n-Chorizo=>Lípidos: 24.8g, Carbohidratos: 2.42g, Proteínas: 11.66g, Calorías: 283g, Sodio: 719mg\n-Medio pan(bolillo)=> 2.5g, Carbohidratos: 17.5g, Proteínas: 4.5g, Calorías: 91g, Sodio: 170.7mg');
+                }
+              </script>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- CLASIFICACION COMIDA (Hamburguesas)---------------------------------------->
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">Hamburguesa</h2>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Sencilla</div>
+            <div class="menu-item-price"> $25 </div>
+            <div class="menu-item-description"> Pan, mayonesa, carne, queso amarillo, lechuga y jitomate</div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion15()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion15() {
+                  alert('-Pan para hamurguesa=>Lípidos: 2.16g, Carbohidratos: 24.72g, Proteínas: 4.75g, Calorías: 140g, Sodio: 240mg\n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Carne de hamburguesa=>Lípidos: 28.8g, Carbohidratos: 4.3g, Proteínas: 15g, Calorías: 336g, Sodio: 346mg\n-Queso amarillo=>Lípidos: 7.39g, Carbohidratos: 1.975.37g, Proteínas: g, Calorías: 96g, Sodio: 368mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Hawaiana</div>
+            <div class="menu-item-price"> $32 </div>
+            <div class="menu-item-description">Pan, mayonesa, carne, queso amarillo, lechuga, jitomate, piña, jamón y queso oaxaca</div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion16()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion16() {
+                  alert('-Pan para hamurguesa=>Lípidos: 2.16g, Carbohidratos: 24.72g, Proteínas: 4.75g, Calorías: 140g, Sodio: 240mg\n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Carne de hamburguesa=>Lípidos: 28.8g, Carbohidratos: 4.3g, Proteínas: 15g, Calorías: 336g, Sodio: 346mg\n-Queso amarillo=>Lípidos: 7.39g, Carbohidratos: 1.975.37g, Proteínas: g, Calorías: 96g, Sodio: 368mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Piña=>Lípidos: 0.03g, Carbohidratos: 3.58g, Proteínas: 0.15g, Calorías: 14g, Sodio: 0mg\n-Jamón=>Lípidos: 1.76g, Carbohidratos: 0.48g, Proteínas: 3.83g, Calorías: 34g, Sodio: 268mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Tocino con queso </div>
+            <div class="menu-item-price"> $32 </div>
+            <div class="menu-item-description"> Pan, mayonesa, carne, queso amarillo, lechuga, jitomate, tocino y queso oaxaca </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion17()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion17() {
+                  alert('-Pan para hamurguesa=>Lípidos: 2.16g, Carbohidratos: 24.72g, Proteínas: 4.75g, Calorías: 140g, Sodio: 240mg\n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Carne de hamburguesa=>Lípidos: 28.8g, Carbohidratos: 4.3g, Proteínas: 15g, Calorías: 336g, Sodio: 346mg\n-Queso amarillo=>Lípidos: 7.39g, Carbohidratos: 1.975.37g, Proteínas: g, Calorías: 96g, Sodio: 368mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Tocino=>Lípidos: 8.36g, Carbohidratos: 0.28g, Proteínas: 7.4g, Calorías: 108g, Sodio: 464mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg');
+                }
+              </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- CLASIFICACION COMIDA  (burrito) ---------------------------------------->
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">burritos</h2>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Choriqueso</div>
+            <div class="menu-item-price"> $30 </div>
+            <div class="menu-item-description"> Tortilla de harina grande, frijol, queso oaxaca y chorizo </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion18()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion18() {
+                  alert('-Tortilla de harina=>Lípidos: 2g, Carbohidratos: 15g, Proteínas: 2g, Calorías: 89 g, Sodio: 898mg\n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg\n-Chorizo=>Lípidos: 24.8g, Carbohidratos: 2.42g, Proteínas: 11.66g, Calorías: 283g, Sodio: 719mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Alambre</div>
+            <div class="menu-item-price"> $30 </div>
+            <div class="menu-item-description"> Tortilla de harina grande, frijol, queso oaxaca y alambre </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion19()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion19() {
+                  alert('-Tortilla de harina=>Lípidos: 2g, Carbohidratos: 15g, Proteínas: 2g, Calorías: 89 g, Sodio: 898mg\n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg\n-Alambres=>Lípidos: 11.14g, Carbohidratos: 5.3g, Proteínas: 18.83g, Calorías: 161g, Sodio: 440.5mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Cochinita</div>
+            <div class="menu-item-price"> $35 </div>
+            <div class="menu-item-description">Tortilla de harina grande, frijol, queso oaxaca y cochinita  </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion00()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion00() {
+                  alert('-Tortilla de harina=>Lípidos: 2g, Carbohidratos: 15g, Proteínas: 2g, Calorías: 89 g, Sodio: 898mg\n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg\n-Cochinita pibil=>Lípidos: 11.5g, Carbohidratos: 8.6g, Proteínas: 14.7g, Calorías: 197g, Sodio: 633mg');
+                }
+              </script>
+          </div>
+
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Pastor</div>
+            <div class="menu-item-price"> $35 </div>
+            <div class="menu-item-description"> Tortilla de harina grande, frijol, queso oaxaca y pastor </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion21()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion21() {
+                  alert('-Tortilla de harina=>Lípidos: 2g, Carbohidratos: 15g, Proteínas: 2g, Calorías: 89 g, Sodio: 898mg\n-Frijol=>Lípidos: 2g, Carbohidratos: 6.6g, Proteínas: 2g, Calorías: 46.6g, Sodio: 126mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg\n-Carne al pastor=>Lípidos: 5.7g, Carbohidratos: 2.4g, Proteínas: 20.9g, Calorías: 144g, Sodio: 590mg');
+                }
+              </script>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- CLASIFICACION COMIDA (Sincronizada)---------------------------------------->
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">Sincronizadas</h2>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Sencilla</div>
+            <div class="menu-item-price"> $18 </div>
+            <div class="menu-item-description"> Tortilla de harina, jamón y queso oaxaca  </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion22()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion22() {
+                  alert('-Tortilla de harina=>Lípidos: 2g, Carbohidratos: 15g, Proteínas: 2g, Calorías: 89 g, Sodio: 898mg\n-Jamón=>Lípidos: 1.76g, Carbohidratos: 0.48g, Proteínas: 3.83g, Calorías: 34g, Sodio: 268mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Doble</div>
+            <div class="menu-item-price"> $26 </div>
+            <div class="menu-item-description">Tortilla de harina, doble jamón y doble queso oaxaca </div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion23()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion23() {
+                  alert('-Tortilla de harina=>Lípidos: 2g, Carbohidratos: 15g, Proteínas: 2g, Calorías: 89 g, Sodio: 898mg\n-Jamón=>Lípidos: 1.76g, Carbohidratos: 0.48g, Proteínas: 3.83g, Calorías: 34g, Sodio: 268mg\n-Queso Oaxaca=>Lípidos: 8g, Carbohidratos: 0.7g, Proteínas: 6.09g, Calorías: 99g, Sodio: 221mg');
+                }
+              </script>
+          </div>
+
+           <!-- CLASIFICACION COMIDA (Sandwiches)---------------------------------------->
+
+          <h2 class="menu-section-title">Sandwiches</h2>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Sencillo</div>
+            <div class="menu-item-price"> $15 </div>
+            <div class="menu-item-description"> Pan, mayonesa, jamón, queso, jitomate, lechuga</div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion24()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion24() {
+                  alert('-Pan blanco(2 rebanadas)=>Lípidos: 1g, Carbohidratos: 26g, Proteínas: 2g, Calorías: 130g, Sodio: 210mg\n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Jamón=>Lípidos: 1.76g, Carbohidratos: 0.48g, Proteínas: 3.83g, Calorías: 34g, Sodio: 268mg\n-Queso fresco/blanco=>Lípidos: 2.33g, Carbohidratos: 1.51g, Proteínas: 3.36g, Calorías: 41g, Sodio: 37mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg');
+                }
+              </script>
+          </div>
+
+          <!-- OPCION DE COMIDA -->
+          <div class="menu-item">
+            <div class="menu-item-name">Doble</div>
+            <div class="menu-item-price"> $23 </div>
+            <div class="menu-item-description">Pan, mayonesa, doble jamón, queso, jitomate y lechuga</div>
+            <p style="color: red;">
+              <button onclick="mostarInformacion25()">Información nutricional</button></p>
+              <script>
+                function mostarInformacion25() {
+                  alert('-Pan blanco(2 rebanadas)=>Lípidos: 1g, Carbohidratos: 26g, Proteínas: 2g, Calorías: 130g, Sodio: 210mg\n-Mayonesa=>Lípidos: 22.5g, Carbohidratos: 0.18g, Proteínas: 0.3g, Calorías: 204g, Sodio: 190.5mg\n-Jamón=>Lípidos: 1.76g, Carbohidratos: 0.48g, Proteínas: 3.83g, Calorías: 34g, Sodio: 268mg\n-Queso fresco/blanco=>Lípidos: 2.33g, Carbohidratos: 1.51g, Proteínas: 3.36g, Calorías: 41g, Sodio: 37mg\n-Jitomate=>Lípidos: 0.2g, Carbohidratos: 4.31g, Proteínas: 0.99g, Calorías: 20g, Sodio: 7mg\n-Lechuga=>Lípidos: 0g, Carbohidratos: 0.87g, Proteínas: 0.42g, Calorías: 4.5g, Sodio: 8.4mg');
+                }
+              </script>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--  FIN DEL MENU
+    ================================================================================-->
+
+
+<!-- CREDITOS ETC.....
+    ================================================================-->
+<div id="footer">
+  <div class="container text-center">
+    <div class="col-md-6">
+      <p>&copy; 2023 || ESCOM ISC || 2CM1 || JOAE  </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- FIN CREDITOS ETC.....
+    ================================================================-->
+
+
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
